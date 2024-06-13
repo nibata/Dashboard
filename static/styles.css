@@ -1,0 +1,23 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+#dashboard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.graph-container {
+    flex: 1;
+    margin: 10px;
+    min-width: 300px;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
